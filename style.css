@@ -1,0 +1,93 @@
+
+  body {
+    background-image: url("Image/landscape2.jpg");
+    background-size: 100% 41em, cover;
+    background-repeat: no-repeat;
+    
+}
+
+.container {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 300px;
+
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: red;*/
+}
+
+.titulo {
+    font-family: 'Stick No Bills', sans-serif;
+    font-weight: bolder;
+    font-size: 23px;
+    color: #edeee9;
+
+    text-align: center;
+    margin-bottom: 1.5em;
+    text-transform: uppercase;
+    margin-right: 3rem;
+}
+
+.titulo span {
+    font-weight: lighter;
+    color: #89cce2;
+    border: solid 2px white;
+}
+
+.first-field {
+    display: flex;
+    justify-content: center;
+    align-items: center; /*coloca os formulários ao centro*/
+}
+
+.imagem {
+    width: 3em;
+    height: 3em;
+    margin-right: 1em;
+    border: solid 2px white ;
+    border-radius: 50%;
+}
+
+.campo-login {
+    padding: 7px 40px 7px 40px ;
+    border-radius: 5px;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+.botao {
+    font-family: 'Stick No Bills' sans-serif;
+    font-weight: bold;
+    height: 2.5em;
+    width: 4em;
+    background-color: #007fff;
+    color: #ffffff;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background-color: rgb(10, 10, 175);
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.second-field, label {
+    display: inline;
+    margin-top: 1em;
+    margin-left: 2.5em;
+    color: white;
+    text-align: center;
+}
+
+.option {
+    color:#edeee9;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.option:hover{
+    text-decoration: underline;
+    color: darkgray;
+}
